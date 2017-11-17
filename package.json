@@ -2,7 +2,7 @@
   "name": "node-gmc",
   "description": "通联支付MIS系统Node.js Addon模块",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/libinqi/node-gmc.git"

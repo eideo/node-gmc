@@ -4,41 +4,41 @@ try {
 	/**
 	 * 银行卡测试
 	 */
-	// var params = {
-	// 	trans_type: '00',
-	// 	pos_id: '12345678',
-	// 	oper_id: '23456789',
-	// 	trans_id: '05',
-	// 	amount: '0.01',
-	// 	old_date: '20171110',
-	// 	old_reference: '111111111111',
-	// 	old_trace: '888888',
-	// 	lrc: '000',
-	// 	memo: ''
-	// };
+	var params = {
+		trans_type: '00',
+		pos_id: '12345678',
+		oper_id: '23456789',
+		trans_id: '05',
+		amount: '0.01',
+		old_date: '20171110',
+		old_reference: '111111111111',
+		old_trace: '000012',
+		lrc: '000',
+		memo: ''
+	};
 
 	/**
 	 * B扫C测试
 	 */
-	var params = {
-		trans_type: '16',
-		pos_id: '12345678',
-		oper_id: '23456789',
-		trans_id: '00',
-		amount: '0.01',
-		old_date: '20171110',
-		old_reference: '111111111111',
-		old_trace: '888888',
-		lrc: '000',
-		memo: '288348864149318662'
-	};
+	// var params = {
+	// 	trans_type: '16',
+	// 	pos_id: '12345678',
+	// 	oper_id: '23456789',
+	// 	trans_id: '01',
+	// 	amount: '0.01',
+	// 	old_date: '20171110',
+	// 	old_reference: '111111111111',
+	// 	old_trace: '010013',
+	// 	lrc: '000',
+	// 	memo: '134813436751995750'
+	// };
 
-	gmc.bankall(params, function (data) {
-		console.info(data);
-	}, function (error) {
-		console.log('错误代码：' + error.code);
-		console.log('错误消息：' + error.message);
-	});
+	// gmc.bankall(params, function (data) {
+	// 	console.info(data);
+	// }, function (error) {
+	// 	console.log('错误代码：' + error.code);
+	// 	console.log('错误消息：' + error.message);
+	// });
 
 	/**
 	 * C扫B测试
