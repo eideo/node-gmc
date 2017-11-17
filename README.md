@@ -13,6 +13,11 @@
         memo：备注，最大长度1500，非必填
     }
 # 2、qrcode,扫码支付接口
+  配置参数{
+	   url: 'http://222.240.182.134:8899/repeatplat/repeat/api',
+       key: 'XzEJmzNSpaAPe8eNCkS56eypRSSp4fjxWbkQKAz73cJn8cZA'
+   } 
+  
    C扫B参数
    {
 		"gProduct": "1",
@@ -34,6 +39,7 @@
 		"mid": "123456789900080",
 		"tid": "12345080"
 	}
+
   订单查询参数
   {
     "gProduct": "1",

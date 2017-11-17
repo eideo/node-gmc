@@ -80,7 +80,13 @@ try {
 	// 	"mid": "123456789900080",
 	// 	"tid": "12345080"
 	// };
-	// gmc.qrcode(params, function (data) {
+
+	// var pay_config = {
+	//     url: 'http://222.240.182.134:8899/repeatplat/repeat/api',
+	//     key: 'XzEJmzNSpaAPe8eNCkS56eypRSSp4fjxWbkQKAz73cJn8cZA'
+	// };
+
+	// gmc.qrcode(pay_config, params, function (data) {
 	// 	console.info(data);
 	// }, function (error) {
 	// 	console.log('错误代码：' + error.code);
