@@ -2,14 +2,14 @@
   "name": "node-gmc",
   "description": "通联支付MIS系统Node.js Addon模块",
   "main": "index.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/libinqi/node-gmc.git"
   },
   "dependencies": {},
   "scripts": {
-    "build": "node-gyp rebuild --arch=ia32",
+    "build": "node-gyp rebuild --arch=ia32 --verbose",
     "copy": "copy build\\Release\\GMC.node bin\\GMC.node",
     "install": "npm run build && npm run copy",
     "test": "node test.js"
